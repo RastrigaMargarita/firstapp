@@ -5,4 +5,14 @@
          version="4.0">
 
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>BasicServlet</servlet-name>
+    <servlet-class>ru.geekbrains.servlet.BasicServlet</servlet-class>
+  </servlet>
+  <!-- Привязываем сервлет к URL -->
+  <servlet-mapping>
+    <servlet-name>BasicServlet</servlet-name>
+    <url-pattern>basic_servlet</url-pattern>
+  </servlet-mapping>
 </web-app>
